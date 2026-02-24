@@ -8,6 +8,7 @@ import enum
 
 class UserRole(str, enum.Enum):
     owner = "owner"
+    manager = "manager"
     staff = "staff"
     customer = "customer"
 
